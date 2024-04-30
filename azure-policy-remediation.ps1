@@ -1,3 +1,5 @@
+//This script is to check for all of your "deployIfNotExist" policies and then run them automatically. You have to use Automation Accounts and set a schedule to run the script.
+
 Write-Output "Connecting to azure via Connect-AzAccount -Identity"
 $clientID = "" #(App Registration)
 $key = "" #(Secret Key from App Reg.)
