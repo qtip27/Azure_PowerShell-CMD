@@ -1,3 +1,5 @@
+// This script is used to remove all blob objects within the storage account that have the "Immutability Policy" set. 
+
 set-AzContext -Subscription '' #(Where ever the Storage account is)
 Set-AzCurrentStorageAccount -ResourceGroupName "" -Name "" #(Stroage Account)
 $containerName = #"Container in Storage Account"
